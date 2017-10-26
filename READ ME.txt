@@ -1,4 +1,17 @@
-*The document "Final Report" contains the answers to the given questions along with all the results and diagrams
-*The document "output.csv" contains the data labelled along with all the clusters
-*The document "2d.py" contains the code for two dimensional plotting and analysis
-*The document "3d.py contains the code for 3 dimensional plotting and analysis"
+# Contents
+
+* "code.py" contains the code used
+* "output_followup.csv" contains the labelled output
+* "avg.txt" contains the average gear ratio for each cluster and the silhouette score
+
+# Algorithm
+
+* Removed all outliers in RPM and and Speed by removing all readings having standard deviation more than 3 for
+  better clustering and normalization
+* Removed all readings with speed zero to compute gear ratio = RPM/Speed in the steps ahead
+* Normalized the values of RPM and Speed
+* Found gear ratio for each row and introduced it as a new feature in the dataset
+* Used multi dimensional k-means to form cluster using k-means,rpm and speed as features
+* Found average gear ratio of each cluster
+* Found silhouette score to check whether the clusters formed are optimal
+* Transcribed all output as CSV and text file.

@@ -1,0 +1,7 @@
+The average gear ratio for cluster 0 is 71.66627152311489
+The average gear ratio for cluster 1 is 904.6156069364162
+The average gear ratio for cluster 2 is 267.0883681535857
+The average gear ratio for cluster 3 is 33.028233955846325
+The average gear ratio for cluster 4 is 460.13398692810455
+The average gear ratio for cluster 5 is 137.40044057434343
+The average silhouette score is 0.72445993874459791.
