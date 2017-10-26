@@ -1,0 +1,4 @@
+*The document "Final Report" contains the answers to the given questions along with all the results and diagrams
+*The document "output.csv" contains the data labelled along with all the clusters
+*The document "2d.py" contains the code for two dimensional plotting and analysis
+*The document "3d.py contains the code for 3 dimensional plotting and analysis"
